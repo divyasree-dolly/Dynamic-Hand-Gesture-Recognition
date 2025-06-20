@@ -33,7 +33,7 @@ game_started = False
 #Main game
 while True:
     #Background Image
-    background_Img = cv2.imread("Images/Background.png")
+    background_Img = cv2.imread("Game/Images/Background.png")
     #reading a frame form the video capture
     success, frame = camera.read()
     
@@ -77,7 +77,7 @@ while True:
                     
                     # Generating a random mover for the AI
                     AI_move = random.choice(['rock','paper','scissors'])
-                    imgAI = cv2.imread(f'Images/{AI_move}.png', cv2.IMREAD_UNCHANGED)
+                    imgAI = cv2.imread(f'Game/Images/{AI_move}.png', cv2.IMREAD_UNCHANGED)
                     background_Img = cvzone.overlayPNG(background_Img, imgAI, (149, 310))
 
                     #if human_sign sign is rock and AI is scissors, if human_sign sign is paper and AI is rock and human_sign sign is scissors and AI is paper

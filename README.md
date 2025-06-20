@@ -46,3 +46,5 @@ dataset of ASL(American Sign Language) gestures.
  Run the ASL_test.py and provide the handgestures referenced in ASL_reference.jpg and let it detect the sign language
 # Game (ROCK-PAPER_SCISSORS)
  Run Game/RockPaperScissors.py and give 's' as user input to play and 'q' to quit the game
+
+![View Game](RockPaperScissorsGame.png)
